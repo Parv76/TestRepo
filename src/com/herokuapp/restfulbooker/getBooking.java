@@ -13,7 +13,7 @@ public class getBooking {
 		RestAssured.baseURI = "https://restful-booker.herokuapp.com";
 		//String resp = given().queryParam("id","1").when().get("/booking/{id}").then().body("firstname",equalTo("Sally"));
 		
-		
+		System.out.println("heeelo");
 	}
 
 	private Object given() {

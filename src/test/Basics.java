@@ -53,6 +53,10 @@ public class Basics {
 		JsonPath js1 = new JsonPath(newPlace);
 		String newaddress = js1.getString("address");
 		System.out.println(newaddress);
+		System.out.println(newaddress);
+		System.out.println(newaddress);
+		
+		
 		
 
 		}
